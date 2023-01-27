@@ -80,7 +80,7 @@ mapping.preset.cmdline = function(override)
         end
       end,
     },
-    ['<C-n>'] = {
+    ['<C-j>'] = {
       c = function(fallback)
         local cmp = require('cmp')
         if cmp.visible() then
@@ -90,7 +90,7 @@ mapping.preset.cmdline = function(override)
         end
       end,
     },
-    ['<C-p>'] = {
+    ['<C-k>'] = {
       c = function(fallback)
         local cmp = require('cmp')
         if cmp.visible() then
